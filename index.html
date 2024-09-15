@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuition Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ABC Tuition Services</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to ABC Tuition Services! We provide high-quality tutoring for students of all ages. Our experienced tutors are here to help you excel in your studies.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Math Tutoring</h3>
+            <p>Expert guidance in algebra, calculus, and more. Tailored lessons to suit your needs.</p>
+        </div>
+        <div class="service">
+            <h3>Science Tutoring</h3>
+            <p>In-depth tutoring in physics, chemistry, and biology. Enhance your understanding and performance.</p>
+        </div>
+        <div class="service">
+            <h3>English Tutoring</h3>
+            <p>Improve your reading, writing, and comprehension skills. Personalized sessions to boost your confidence.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to book a session? Reach out to us!</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 ABC Tuition Services</p>
+    </footer>
+</body>
+</html>
